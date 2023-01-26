@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(22, 20, 24);
+  color: #eee;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+hr{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(136, 136, 136, 0.3333333333);
+  margin-top: 0;
+}
+
+#navbar-btns{
+  background: linear-gradient(0deg, rgb(40, 44, 52) 0%, rgba(17, 0, 32, 0.5) 100%);
+  box-shadow: 0 7px 50px 10px rgb(164, 21, 220, 0.3);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  contain: content;
+}
+
+.active-li{
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: inherit;
+  padding-bottom: 10px;
+  
+}
+
+#navbar-btns a{
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  padding-right: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+
+#hub-logo{
+  background: none;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+#hub-logo img{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navbar-btns a:hover{
+  color: rgba(164, 21, 220, 0.719)
+}
+
+#hub-top{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#hub-top ul{
+  list-style-type: none;
+  display: inline-block;
+}
+
+#hub-top li{
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+
+
+
+.view-project-btn{
+  text-align: center;
+  border-color: #282c34;
+  border-style: outset;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+.view-project-btn:hover{
+  border-style: inset;
+  background: rgba(164, 21, 220, 0.719);
+}
+
+.view-project-btn a{
+  color: white;
+  text-decoration: none;
+  padding-top: 35px;
+}
+
+
+#project-wrapper-conatiner{
+  max-width: 990px;
+}
+
+#project-wrapper{
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.nft {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  max-width: 300px;
+  margin: 5rem auto;
+  border: 1px solid rgba(255, 255, 255, 0.1333333333);
+  border-radius: 0.7rem;
+  background: linear-gradient(0deg, rgb(40, 44, 52) 0%, rgba(17, 0, 32, 0.5) 100%);
+  box-shadow: 0 7px 20px 5px rgba(0, 0, 0, 0.5333333333);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  overflow: hidden;
+  transition: 0.5s all;
+}
+.nft hr {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(136, 136, 136, 0.3333333333);
+  margin-top: 0;
+}
+.nft ins {
+  text-decoration: none;
+}
+.nft .main {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 1rem;
+}
+.nft .main .tokenImage {
+  border-radius: 0.5rem;
+  max-width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.nft .main .description {
+  margin: 0.5rem 0;
+  color: #a89ec9;
+}
+.nft .main .tokenInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nft .main .tokenInfo .price {
+  display: flex;
+  align-items: center;
+  color: #ee83e5;
+  font-weight: 700;
+}
+.nft .main .tokenInfo .price ins {
+  margin-left: -0.3rem;
+  margin-right: 0.5rem;
+}
+.nft .main .tokenInfo .duration {
+  display: flex;
+  align-items: center;
+  color: #a89ec9;
+  margin-right: 0.2rem;
+}
+.nft .main .tokenInfo .duration ins {
+  margin: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.nft .main .creator {
+  display: flex;
+  align-items: center;
+  margin-top: 0.2rem;
+  margin-bottom: -0.3rem;
+}
+.nft .main .creator ins {
+  color: #a89ec9;
+  text-decoration: none;
+}
+.nft .main .creator .wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1333333333);
+  padding: 0.3rem;
+  margin: 0;
+  margin-right: 0.5rem;
+  border-radius: 100%;
+  box-shadow: inset 0 0 0 4px rgba(0, 0, 0, 0.6666666667);
+}
+.nft .main .creator .wrapper img {
+  border-radius: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1333333333);
+  width: 2rem;
+  height: 2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0;
+}
+.nft ::before {
+  position: fixed;
+  content: "";
+  box-shadow: 0 0 100px 40px rgba(255, 255, 255, 0.031372549);
+  top: -10%;
+  left: -100%;
+  transform: rotate(-45deg);
+  height: 60rem;
+  transition: 0.7s all;
+}
+.nft:hover {
+  border: 1px solid rgba(255, 255, 255, 0.2666666667);
+  box-shadow: 0 7px 50px 10px rgb(164, 21, 220, 0.3);
+  transform: scale(1.015);
+}
+
+/*# sourceMappingURL=hub.css.map */

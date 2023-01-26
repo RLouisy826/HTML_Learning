@@ -15,12 +15,10 @@ Project_folder
 |
 |
 README.md
-Media folder
-|Img.png
-|Img.favicon
-|Img.svg
 fileName.html
 fileName.css
+
+All media files must be in the 'public' folder found at the root directory.
 
 Here are a few potential project examples : - Landing page - Restaurant website - Portfolio website - Event Website - Photography website - Survey form - Technical document page - Google search & result page - Library website - Voting system - Bookmark system - Feel free to add more :)
 
@@ -42,3 +40,6 @@ Design :
 Fonts :
 Colors :
 /------------------------------------------------------------------------------------------/
+
+### Remarks 
+When prototyping, please build your project in a seperate folder, when complete we will all review it and then migrate it, using vite.
