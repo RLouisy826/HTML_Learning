@@ -11,6 +11,12 @@ body {
           user-select: none;
 }
 
+.main h6{
+  margin-bottom: 5px;
+  margin-top: 0px;
+  color: #ee83e5;
+}
+
 hr{
   width: 100%;
   border: none;
@@ -105,8 +111,8 @@ hr{
   padding-right: 35px;
   padding-top: 5px;
   padding-bottom: 10px;
-  margin-bottom: 25px;
-  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 .view-project-btn:hover{
@@ -135,7 +141,7 @@ hr{
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-
+*
 .nft {
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -143,19 +149,20 @@ code {
           user-select: none;
   max-width: 300px;
   margin: 5rem auto;
-  border: 1px solid rgba(255, 255, 255, 0.1333333333);
+  border: 1px solid rgba(255, 255, 255, 0.1333333333); /*This changes the color of the border of the NF card*/
   border-radius: 0.7rem;
-  background: linear-gradient(0deg, rgb(40, 44, 52) 0%, rgba(17, 0, 32, 0.5) 100%);
+  background: linear-gradient(0deg, rgb(40, 44, 52) 0%, rgba(17, 0, 32, 0.5) 100%); /*This changes the gradient colors of the overall NFT card*/
   box-shadow: 0 7px 20px 5px rgba(0, 0, 0, 0.5333333333);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
-  overflow: hidden;
+  overflow: hidden;  /*This property displays the bottom left diagonal color change (the white line), put this porperty in visible to be able to see it */
   transition: 0.5s all;
 }
+
 .nft hr {
   width: 100%;
   border: none;
-  border-bottom: 1px solid rgba(136, 136, 136, 0.3333333333);
+  border-bottom: 1px solid rgba(136, 136, 136, 0.3333333333); /*Color of the lines above and underneath the 'View project' buttons */
   margin-top: 0;
 }
 .nft ins {
@@ -176,7 +183,7 @@ code {
 }
 .nft .main .description {
   margin: 0.5rem 0;
-  color: #a89ec9;
+  color: #a89ec9; /*Color of the description's text*/
 }
 .nft .main .tokenInfo {
   display: flex;
@@ -186,7 +193,7 @@ code {
 .nft .main .tokenInfo .price {
   display: flex;
   align-items: center;
-  color: #ee83e5;
+  color: #ee83e5; /*This is the color of the 'Time' */
   font-weight: 700;
 }
 .nft .main .tokenInfo .price ins {
@@ -196,7 +203,7 @@ code {
 .nft .main .tokenInfo .duration {
   display: flex;
   align-items: center;
-  color: #a89ec9;
+  color: #a89ec9; /*This to color the language types 'HTML, CSS, JS'*/
   margin-right: 0.2rem;
 }
 .nft .main .tokenInfo .duration ins {
@@ -210,13 +217,13 @@ code {
   margin-bottom: -0.3rem;
 }
 .nft .main .creator ins {
-  color: #a89ec9;
+  color: #a89ec9; /*This is the color of the word 'Author(s)' at the bottom of the NFT cards*/
   text-decoration: none;
 }
 .nft .main .creator .wrapper {
   display: flex;
   align-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.1333333333);
+  border: 1px solid rgba(255, 255, 255, 0.1333333333); /*This is the exterior border color for the Pfp*/
   padding: 0.3rem;
   margin: 0;
   margin-right: 0.5rem;
@@ -235,7 +242,7 @@ code {
 .nft ::before {
   position: fixed;
   content: "";
-  box-shadow: 0 0 100px 40px rgba(255, 255, 255, 0.031372549);
+  /* box-shadow: 0 0 100px 40px rgba(255, 255, 255, 0.031372549); i commented this line because i do not use the effect it was coded for, can still be used, i left it here for learning pruposes*/
   top: -10%;
   left: -100%;
   transform: rotate(-45deg);
@@ -244,8 +251,24 @@ code {
 }
 .nft:hover {
   border: 1px solid rgba(255, 255, 255, 0.2666666667);
-  box-shadow: 0 7px 50px 10px rgb(164, 21, 220, 0.3);
   transform: scale(1.015);
+  animation-name: breathing;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes breathing {
+  0% {
+    box-shadow: 0 7px 20px 5px rgba(0, 0, 0, 0.5333333333);
+  }
+  50% {
+    box-shadow: 0 7px 50px 10px rgb(164, 21, 220, 0.3);
+    transform: scale(1.05);
+  }
+  100% {
+    box-shadow: 0 7px 20px 5px rgba(0, 0, 0, 0.5333333333);
+  }
 }
 
 /*# sourceMappingURL=hub.css.map */
