@@ -43,3 +43,7 @@ Colors :
 
 ### Remarks 
 When prototyping, please build your project in a seperate folder, when complete we will all review it and then migrate it, using vite.
+
+Since this project uses Vite.js it would be good to note that all the files should be in the 'public' folder when  they're ready to go live on Vercel.
+
+Make sure all the paths are correctly set, and remember that the root directory when using Vite.js is the "public" folder so all the content must be routed to there instead in order for the links and other elements to work together

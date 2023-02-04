@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Sofia Sans', sans-serif;
+    background: rgb(98, 95, 95);
+}
+
+.hero-header{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px ;
+    contain: content;
+    padding-bottom: 5px;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 32px;
+    box-shadow: -35px 35px 68px 0px rgba(0, 0, 0, 0.5), inset 3px -3px 16px 0px rgba(0, 0, 0, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+
+
+#hero-content{
+    display: flex;
+}
+
+#hero-content img{
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    border-radius: 25px;
+}
+
+#hero-content-text{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5px;
+}
+
+#introduction{
+    display: flexbox;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px ;
+    contain: content;
+    padding-bottom: 5px;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 32px;
+    box-shadow: -35px 35px 68px 0px rgba(0, 0, 0, 0.5), inset 3px -3px 16px 0px rgba(0, 0, 0, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+
+#bear-species li{
+    list-style-type: none;
+}
+
+.species{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+    color: black;
+}
+
+#habitat ol{
+    list-style-type: none;
+}
+
+#habitat-wrapper{
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    contain: content;
+    padding-bottom: 5px;
+    height: 350px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 32px;
+    width: fit-content;
+    box-shadow: -35px 35px 68px 0px rgba(0, 0, 0, 0.5), inset 3px -3px 16px 0px rgba(0, 0, 0, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+
+#habitat{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 500px;
+}
+
+.geo-image{
+    width: 50px;
+    height: 35px;
+}
+
+.countries{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.countries li{
+    font-size: larger;
+    font-weight: 800;
+}
+
+.bear-countries{
+    display: flex;
+    justify-content: space-between;
+}
+
+.centered-pictures{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#more-about-bears{
+    text-align: center;
+}
+
+#bear-attack-wrapper{
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    contain: content;
+    padding-bottom: 5px;
+    height: 350px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 32px;
+    width: fit-content;
+    box-shadow: -35px 35px 68px 0px rgba(0, 0, 0, 0.5), inset 3px -3px 16px 0px rgba(0, 0, 0, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+#project-grizzly-wrapper{
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    contain: content;
+    padding-bottom: 5px;
+    height: 350px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 32px;
+    width: fit-content;
+    box-shadow: -35px 35px 68px 0px rgba(0, 0, 0, 0.5), inset 3px -3px 16px 0px rgba(0, 0, 0, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+
+}
+#bear-hunting-wrapper{
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    contain: content;
+    padding-bottom: 5px;
+    height: 350px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 32px;
+    width: fit-content;
+    box-shadow: -35px 35px 68px 0px rgba(0, 0, 0, 0.5), inset 3px -3px 16px 0px rgba(0, 0, 0, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+
+
+#bear-attacks{
+    display: inline-block;
+    background: red;
+}
+#grizzly-suit{
+    display: inline-block;
+    background: red;
+}
+#bear-hunting{
+    display: inline-block;
+    background: red;
+}
