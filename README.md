@@ -7,6 +7,8 @@ This repository is shared between different people in order to learn HTML, CSS, 
 To help others out in understanding your code and for the sake of learning to be more organized it would be nice for code writters to comment there own code, to help others figure out what you did for your project to work, it's not the most important thing but it's just nice.
 
 The structure of the repo is as follows:
+
+```
 📦HTML Learning
 ┣ 📂Bears
 ┣ 📂Landing Page
@@ -18,6 +20,7 @@ The structure of the repo is as follows:
 ┣ 📜package.json
 ┣ 📜README.md
 ┗ 📜style.css
+```
 
 All media files must be in the 'public' folder found at the root directory.
 
