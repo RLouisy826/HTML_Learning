@@ -8,15 +8,19 @@ To help others out in understanding your code and for the sake of learning to be
 
 The structure of the repo is as follows:
 
--HTML Learning
-|
-|
-Project_folder
-|
-|
-README.md
-fileName.html
-fileName.css
+```
+📦HTML Learning
+┣ 📂Bears
+┣ 📂Landing Page
+┣ 📂public
+┣ 📜.gitignore
+┣ 📜fontImports.md
+┣ 📜index.html
+┣ 📜package-lock.json
+┣ 📜package.json
+┣ 📜README.md
+┗ 📜style.css
+```
 
 All media files must be in the 'public' folder found at the root directory.
 
@@ -27,7 +31,7 @@ These fonts are just store in a common place just to make it easier, just copy a
 These fonts are all provided by "Google fonts".
 God bless google.
 
-The README.md must contain specific information, here is a templat below :
+The README.md must contain specific information, here is a template below :
 /---------------------------------------Template----------------------------------------/
 Project name :
 Project number :
@@ -41,9 +45,10 @@ Fonts :
 Colors :
 /------------------------------------------------------------------------------------------/
 
-### Remarks 
+### Remarks
+
 When prototyping, please build your project in a seperate folder, when complete we will all review it and then migrate it, using vite.
 
-Since this project uses Vite.js it would be good to note that all the files should be in the 'public' folder when  they're ready to go live on Vercel.
+Since this project uses Vite.js it would be good to note that all the files should be in the 'public' folder when they're ready to go live on Vercel.
 
 Make sure all the paths are correctly set, and remember that the root directory when using Vite.js is the "public" folder so all the content must be routed to there instead in order for the links and other elements to work together
